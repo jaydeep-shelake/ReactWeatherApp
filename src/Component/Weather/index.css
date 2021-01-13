@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    background: gray;
+    font-family: 'Poiret One', cursive;
+
+}
+.box{
+    width:450px;
+    height: 550px;
+    background: rgb(250, 249, 249);
+    margin:20px 0;
+    border-radius: 8px;
+    box-shadow: 6px 6px 12px rgba(0,0,0,0.345);
+}
+.topBox{
+    width: 100%;
+    height: 65%;
+}
+.bottomBox{
+    width: 100%;
+    height: 35%;
+    background: rgb(12, 12, 12);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color:rgb(140, 136, 136);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+.bottomBox i{
+    margin: 0 20px;
+}
+.icon{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+.icon i{
+    margin-top: 45px;
+    color: rgb(92, 90, 90);
+}
+.description{
+    width: 100%;
+    height: 45%;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.temp{
+    width:27.5%;
+}
+.temp h1{
+    font-size: 3.9rem;
+    padding: 0 10px;
+}
+.des{
+    width: 50%;
+    display: flex;
+    align-items:flex-start;
+    justify-content:center;
+    flex-direction: column;
+    color: gray;
+    padding: 10px 5px;
+}
+.des h2{
+    font-size:35px;
+    line-height: 0.9;
+}
+.des p{
+    color: rgb(24, 24, 24);
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.date{
+ width: 23.5%;
+ height: 105px;
+ background: rgb(97, 192, 230);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ color: #ffff;
+ font-size: 22px;
+}
